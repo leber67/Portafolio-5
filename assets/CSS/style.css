@@ -1,0 +1,335 @@
+*,
+*::before,
+*::after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+body {
+      font-family: 'Inter', sans-serif;
+}
+:root {
+      --sky__blue: #8E7BEF;
+      --sky__black: #222222;
+      --sky__yellow: #FCDA68;
+      --sky__darkgrey: #423F40;
+      --sky__white: #FFFFFF;
+      --sky__wb: #F9F5F2;
+}
+@media (min-width: 320px) {
+.bar__menu {
+      display: flex;
+      justify-content:center;
+      gap: 20px;
+      padding-top: 1rem;
+}
+.visible__menu{
+      display: flex;
+      font-size: 25px;
+}
+.visible__menu i {
+      color: var(--sky__yellow);
+}
+.invisible__menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      gap: 1rem;
+      visibility: hidden;
+}
+.invisible__menu p {
+      font-size: 12px;
+}
+.invisible__menu :first-child {
+      color: var(--sky__blue);
+}
+.seccion__head {
+      text-align: center;
+}
+.text__principal h1 {
+      font-size: 38px;
+      color: var(--sky__black);
+
+}
+.text__principal p {
+      font-size: 18px;
+      color: var(--sky__darkgrey);
+      margin-top: 15px;
+}
+.time__experience {
+      display: flex;
+      justify-content: center;
+      gap: 7px;
+      margin-top: 18px;
+      font-size: 18px;
+}
+.time__experience p:nth-child(1) {
+      color: var(--sky__blue);
+}
+.time__experience p :nth-child(2) {
+      color: var(--sky__darkgrey);
+}
+.icon__container {
+      display: flex;
+      justify-content: center;
+      margin-top: 38px;
+      gap: 35px;
+}
+.icon__container div {
+      background-color: var(--sky__blue);
+      width: 38px;
+      height: 38px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 45%;
+}
+.icon__container div a i {
+      color: var(--sky__white);
+      font-size: 19px;
+}
+.content__image {
+      margin-top: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.profile__image img {
+      width: 310px;
+}
+.contact__button button {
+      border: none;
+      background-color: var(--sky__blue);
+      width: 310px;
+      padding: 10px;
+      margin: 38px;
+}
+.contact__button button a {
+      color: var(--sky__white);
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      font-size: 18px;
+}
+.contact__button__desk {
+      display: none;
+}
+.experience__abilities {
+      background-color: var(--sky__yellow);
+      padding: 35px 20px;
+}
+.abilities__principal h3 {
+      font-size: 38px ;
+      line-height: 55px;
+      color: var(--sky__darkgrey);
+      margin-bottom: 20px;
+}
+.abilities__principal p {
+      color: var(--sky__darkgrey);
+      opacity: 0.7;
+      margin-bottom: 38px;
+      font-size: 17px;
+      max-width: 400px;
+}
+.abilities__principal h4 {
+      font-size: 21px;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      color: var(--sky__darkgrey);
+}
+.jobs__experiences h4 {
+      font-size: 20px;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      color: var(--sky__darkgrey);
+}
+.items {
+       display: flex;
+       gap: 18px;
+       padding: 10px 0
+}
+.jobs__experience hr {
+      border: none;
+      height: 1px;
+      background-color: var(--sky__darkgrey);
+      opacity: 0.4 ;
+}
+.tecno__abilities h3 {
+      font-size: 20px;
+      padding: 10px 0;
+      margin-top: 38px;
+      margin-bottom: 9px;
+      color: var(--sky__darkgrey);
+}
+.image__abilities {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+}
+.icon__img {
+      padding: 18px 0;
+}
+.icon__img p {
+      max-width: 190px;
+      color: var(--sky__darkgrey);
+      font-weight: 500;
+}
+.briefcase {
+      padding: 35px 15px;
+}
+.brief__img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 25px 0;
+      gap: 20px;
+}
+.briefcase h3 {
+      font-size: 20px;
+      padding: 10px 10px;
+      margin-top: 30px;
+      color: var(--sky__darkgrey);
+}
+.briefcase__content p {
+      font-size: 18px;
+      font-weight: 500;
+      padding-bottom: 15px;
+      color: var(--sky__blue);
+}
+.inf__contact h3 {
+      font-size: 25px;
+      padding: 10px 0;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: var(--sky__darkgrey);
+}
+.content__contact {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+}
+.figure__contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.datos__contact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90px;
+      height: 90px;
+      background-color: var(--sky__wb);
+      border-radius: 40%;
+}
+.datos__contact i {
+      color: var(--sky__blue);
+      font-size: 40px;
+}
+.item__dark {
+      font-weight: 500;
+      color: var(--sky__black);
+      margin-top: 4px;
+}
+.item__clear {
+      font-weight: 400;
+      color: var(--sky__darkgrey);
+      font-size: 12px;
+}
+.final__page h4 {
+      color: var(--sky__blue);
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+}
+}
+
+@media (min-width: 768px) {
+      .invisible__menu {
+            visibility: visible;
+      }
+      .visible__menu {
+            visibility: hidden;
+      }
+}
+
+@media (min-width: 992px) {
+      .seccion__head {
+            display: flex;
+            justify-content: center;
+      }
+      .content__image {
+            margin-top: 0;
+      }
+      .profile__image {
+            min-width: 420px;
+      }
+      .text__principal h1 {
+            text-align: start;
+            font-size: 50px;
+            width: 300px;
+      }
+      .text__principal p {
+            text-align: start;
+            width: 450px;
+      }
+      .time__experience {
+            justify-content: flex-start;
+      }
+      .icon__container {
+            justify-content: flex-start;
+      }
+      .contact__button {
+            display: none;
+      }
+      .contact__button__desk {
+            display: flex;
+      }
+      .contact__button__desk button {
+            border: none;
+            background-color: var(--sky__blue);
+            width: 310px;
+            padding: 10px;
+            margin: 38px 0;
+      }
+      .contact__button__desk button a {
+            color: var(--sky__white);
+            text-decoration: none;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            font-size: 18px;
+      }
+      .abilities__content {
+            display: flex;
+            justify-content: center;
+      }
+      .abilities__principal {
+            max-width: 45%;
+      }
+      .abilities__principal h3 {
+            width: 300px;
+      }
+      .abilities__principal p {
+            width: 300px;
+      }
+      .job__experience {
+            min-width: 28%;
+      }
+      .image__abilities {
+            flex-direction: row;
+            justify-content: center;
+            gap: 2rem;
+      }
+      .inf__contact h3 {
+            text-align: start;
+            margin-left: 2%;
+      }
+}
